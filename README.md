@@ -25,7 +25,8 @@ medical-data-migration-mongodb/
 ├── migration/
 │   ├── migrate.py
 │   ├── requirements.txt
-│   └── Dockerfile
+│   └── D<img width="306" height="373" alt="Capture d’écran 2025-12-15 à 00 35 34" src="https://github.com/user-attachments/assets/91cdf4dd-c2b3-4365-b390-a1fc95d07272" />
+ockerfile
 │
 ├── mongo/
 │   └── init-mongo.js
