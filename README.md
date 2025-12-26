@@ -18,26 +18,25 @@ Mettre en place l’authentification et la gestion des accès MongoDB
 
 ## Structure du projet
 
+## Structure du projet
+
+```text
 medical-data-migration-mongodb/
-│
 ├── data/
 │   └── healthcare_dataset.csv
-│
 ├── migration/
 │   ├── migrate.py
 │   ├── crud_demo.py
 │   ├── requirements.txt
 │   └── Dockerfile
-│
 ├── mongo/
 │   └── init-mongo.js
-│
 ├── .env
 ├── .gitignore
 ├── .gitattributes
-│
 ├── docker-compose.yml
 └── README.md
+
 
 
 
