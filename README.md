@@ -16,27 +16,6 @@ Mettre en place l’authentification et la gestion des accès MongoDB
 
 Étudier les solutions de déploiement MongoDB sur AWS
 
-## Structure du projet
-
-## Structure du projet
-
-```text
-medical-data-migration-mongodb/
-├── data/
-│   └── healthcare_dataset.csv
-├── migration/
-│   ├── migrate.py
-│   ├── crud_demo.py
-│   ├── requirements.txt
-│   └── Dockerfile
-├── mongo/
-│   └── init-mongo.js
-├── .env
-├── .gitignore
-├── .gitattributes
-├── docker-compose.yml
-└── README.md
-
 
 
 ## Technologies utilisées
@@ -81,3 +60,22 @@ concevoir une architecture data scalable
 automatiser une migration de données
 
 justifier des choix techniques et cloud
+
+## Structure du projet
+
+```text
+medical-data-migration-mongodb/
+├── data/
+│   └── healthcare_dataset.csv
+├── migration/
+│   ├── migrate.py
+│   ├── crud_demo.py
+│   ├── requirements.txt
+│   └── Dockerfile
+├── mongo/
+│   └── init-mongo.js
+├── .env
+├── .gitignore
+├── .gitattributes
+├── docker-compose.yml
+└── README.md
