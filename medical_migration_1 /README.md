@@ -1,4 +1,4 @@
-# 🏥 Migration de données médicales vers MongoDB
+# Migration de données médicales vers MongoDB
 
 Ce projet a pour objectif d'automatiser la **migration d’un fichier CSV de données médicales** vers une base de données **MongoDB**, dans le cadre d’une mission pour l’entreprise fictive **DataSoluTech**.
 
@@ -6,7 +6,7 @@ L’objectif est de prendre un fichier tabulaire (CSV) contenant des information
 
 ---
 
-## 🔧 1. Architecture générale
+## 1. Architecture générale
 
 La migration suit le pipeline suivant :
 
@@ -24,7 +24,7 @@ Toute l’architecture est désormais **conteneurisée via Docker & Docker Compo
 
 ---
 
-## 📦 2. Prérequis
+## 2. Prérequis
 
 Avant d’utiliser le projet :
 
@@ -33,11 +33,11 @@ Avant d’utiliser le projet :
 - Optionnel : **MongoDB Compass** pour visualiser les données après migration
 
 Aucune installation de Python ou MongoDB sur ton ordinateur n’est nécessaire :  
-➡️ **Tout tourne dans les conteneurs Docker.**
+**Tout tourne dans les conteneurs Docker.**
 
 ---
 
-## 📁 3. Structure du projet
+## 3. Structure du projet
 
 ```bash
 medical_migration/
