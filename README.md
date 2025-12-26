@@ -39,7 +39,6 @@ medical-data-migration-mongodb/
 
 
 
-
 ## Technologies utilisées
 
 Python
